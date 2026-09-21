@@ -1,0 +1,117 @@
+So bro this is the day one
+Machine learning is sub set of AI 
+ML implies to building logical models
+
+ML is much more into mathematics
+- Linear ALgebra
+- Statistics 
+- Probability
+- Information theory 
+- Integral Calculus
+- Graph theory
+
+Easiest way to represent data is matrix 
+Applying matrix operations on data is possible
+- Matrix multiplication
+- Matrix inverse 
+- Matrix transpose
+
+Information theory
+what is informtaion thoery 
+- Entropy
+- Information gain
+- Information gain ratio
+
+# DATA
+Types :
+- Structured (tabular)
+    ex: Numerical and Non Numerical 
+- Unstructured 
+    ex: Audio, Video, Images, Text, Speech 
+
+Numerical data divided into 
+    - Discreet 
+    - Continuous 
+
+Non numerical is divided as
+    - Categorical
+    - Non categorical 
+
+Categorical is divided as 
+    - Ordinal
+    - Nominal
+
+-----
+
+Machine learning is divided into 
+- Supervised learning
+- Unsupervised learning
+
+Supervised learning:
+Here the training is done using labelled DATA
+target is present
+
+classifies into 
+    - Regression
+    - CLassification
+
+Regression:
+When target is continuous, ex: house price prediction
+
+Classification:
+When target is class or category or discreet, ex: Spam/Not spam
+
+Types of Regression :
+1. Linear
+2. Support Vector
+3. Decision Tree
+4. Random Forest
+
+Tyeps of Classification:
+1. Logistic Regression
+2. Support vector classifier
+3. Decision tree classifier
+4. Random forest classfier
+
+------
+
+Unsupervised learning:
+Here the training is done using unlabelled DATA
+no target is present
+
+Unsupervised learning is divided into:
+    1. Clustering
+    2. Association
+
+Clustering:
+We group the data based on similarity in the data points
+we call them as a "Cluster"
+- cosine similarity (keyword)
+
+Types of clustering:
+    - Hierarchial clustering
+    - K-mean's
+
+Assocaition:
+chances of occuring of a thing based on the previous one 
+online definition - Find rules about which items occur together. "If X happens, Y tends to happen too."
+
+-----
+
+Semi Supervised:
+Some part of the data is labelled and some part is unlabelled
+
+-----
+Self Supervised:
+The model itself identifies the label
+- ex: autocomplete 
+
+// Basically in machine learning we find hidden patterns in data to relate 'x' and 'y' 
+
+Reinforced learning (keyword)
+----
+PYTHON LIBRARIES REQUIRED 
+- numpy (numerical python, this is to perform ops of linear algebra)
+- pandas (accessing data and converting it to dataframe)
+- Matplotlib (data visualization)
+- sklearn (to import models which we use on our data)

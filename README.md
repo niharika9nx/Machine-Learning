@@ -1,2 +1,7 @@
 # Machine-Learning
 This is the whole thing done in 100hr machine learning workshop 
+Topics that will be taught
+- Machine learning
+- Deep learning
+- Gen AI
+
