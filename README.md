@@ -5,3 +5,5 @@ Topics that will be taught
 - Deep learning
 - Gen AI
 
+We will be building an image recognition model
+alongside with the project the mathematical concepts will be explained

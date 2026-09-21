@@ -115,3 +115,37 @@ PYTHON LIBRARIES REQUIRED
 - pandas (accessing data and converting it to dataframe)
 - Matplotlib (data visualization)
 - sklearn (to import models which we use on our data)
+
+In data,
+The feature (part of data) which contributes high to the prediction is important
+The feature whose "variance" is high is the highest contributing function (do not confirm it)
+variance - distribution of data, how far a point is away from it's mean
+
+sigma (standard deviation) = sqrt(variance) 
+
+The nature of model we need to have as a target to achieve in our project -
+
+BIAS -
+meaning = error
+what if the feature which has high variance still resulted in wrong output - this is the bias
+
+overfitted model
+- understands patterns
+- passes in training
+- fails in tests
+
+underfitted model (high bias model) 
+- unable to understand pattern
+- fails in training
+- fails in test cases
+
+What is learning
+    - Optimization of parameters
+    - we train the model to find out the relation between x and y and in that process the we will find out the parameter values
+y = actual
+y! = predicted 
+y! - y = error
+error = how far our model is from the original value
+our goal = reduce the error
+i.e, y! =(nearly equal to) y
+to achieve this we "train the model"
