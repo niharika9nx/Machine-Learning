@@ -38,3 +38,6 @@ Linear Algebra intro
 L1, L2 penalties
 principle component analysis
 dimensionality reduction technique
+
+In univariable we make count plot and pie plot for categorical and discrete features
+In bivariate we can make scatter plot between continuous vs continuos
