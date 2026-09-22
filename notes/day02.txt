@@ -1,0 +1,40 @@
+We will understand what type of data visualization technique is used for what data type
+
+suppose we have a table of data with functions, for training the model we create an equation of these function swith some weights , so now for adusting the weights we will be panelizing
+1. method one is dividing the equation with sum of the whole coefficients
+2. Dividing with sum of the squares of the coefficients
+
+names of the penalty
+L1 - Lasso 
+L2 - Ridge
+
+L1 - is also a feature selction technique 
+    - it eliminates the low contributing feature (as the division happens the value nearly tends to zero)
+    - Can push weights exactly to zero → automatic feature selection, sparse models.
+L2 - Tries to reduce the impact of less contributing feature, 
+    -but it doesn't eliminate the feature completely
+    -Shrinks weights smoothly toward zero but rarely exactly zero. Good default.
+    -L2 is used in cases where there are dependent functions (features) and the variance is high 
+
+Elastic Net — mix of L1 + L2.
+
+When we visualize data we will understand where penalties are required 
+And vectors will let us know in what direction they need to be aligned
+
+With eigen values we identify how much information this particular feature posses and which direction it should be aligned
+
+THIS IS CALLLED PRINCIPAL COMPONENT ANALYSIS 
+DIMENSIONALITY REDUCTION TECHNIQUE
+
+
+\topics discussed today
+scalar
+vector
+dimension
+tensor
+matrix
+matrix ppts and ops
+Linear Algebra intro
+L1, L2 penalties
+principle component analysis
+dimensionality reduction technique
