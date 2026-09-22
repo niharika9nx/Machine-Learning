@@ -41,3 +41,25 @@ dimensionality reduction technique
 
 In univariable we make count plot and pie plot for categorical and discrete features
 In bivariate we can make scatter plot between continuous vs continuos
+
+
+DATA VISUALIZATION -
+Univariable -
+    - Categorical, Discontinuous - Counterplot, pre plot(once check this)
+    - Continuos - Box, hist, 
+
+One hot encoding - 'pd.get_dummies' method
+
+Example: If df["Role"] has values ["Analyst", "Engineer", "Manager"]:
+Original:      Role
+               Analyst
+               Engineer
+               Manager
+               Analyst
+
+After get_dummies:
+               Role_Analyst  Role_Engineer  Role_Manager
+               1             0              0
+               0             1              0
+               0             0              1
+               1             0              0
