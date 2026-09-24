@@ -1,0 +1,2 @@
+It is a Machine Learning Algorithm
+It can perform regression and classification

@@ -1,0 +1,11 @@
+Quantile, percentile = A quantile splits your sorted data into equal chunks. A percentile is a quantile with 100 chunks.
+Skewness - Skewness measures asymmetry of a distribution.
+Kurtosis - measures tail heaviness — how often extreme values appear.
+
+skewness - 
+
+voice based python libraries
+
+    Classification- 
+    titanic - binary classification
+    - logistical regression 
