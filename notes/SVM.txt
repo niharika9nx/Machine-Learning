@@ -1,2 +1,13 @@
+SVM - Support Vector Machine
 It is a Machine Learning Algorithm
 It can perform regression and classification
+
+We divide things here, using support vectors into two classes (positive and negative)
+
+inorder to divide two classes (binary classification) - the division will be a line (boundary)
+if 3 classes - then it is a plane 
+if 4 classes - then it is a hyperplane
+
+keywords -
+misclassification
+support vectors
